@@ -1,0 +1,7 @@
+{
+    "id": "nodebb-theme-fw-core",
+    "name": "Frostworks Core Theme for NodeBB",
+    "description": "A basic theme for NodeBB to use as a starting point for your Frostworks design",
+    "url": "https://github.com/frostworks/core",
+    "screenshot": "screenshot.png"
+}
