@@ -13,11 +13,19 @@
 			<a component="account/new-chat" href="#">[[user:new_chat_with, {username}]]</a>
 		</li>
 		<!-- ENDIF !config.disableChat -->
+		<li class="divider"></li>
 		<li>
 			<a component="account/flag" href="#">[[user:flag-profile]]</a>
 		</li>
 		<li class="divider"></li>
 		<!-- ENDIF !banned -->
+		<li>
+			<a component="account/follow" href="#" class="<!-- IF isFollowing -->hide<!-- ENDIF isFollowing -->">[[user:follow]]</a>
+		</li>
+		<li>
+			<a component="account/unfollow" href="#" class="<!-- IF !isFollowing -->hide<!-- ENDIF !isFollowing -->">[[user:unfollow]]</a>
+		</li>
+		<li class="divider"></li>
 		<!-- ENDIF !isSelf -->
 		<li>
 			<a href="{config.relative_path}/user/{userslug}" class="inline-block" id="profile">[[user:profile]]</a>
