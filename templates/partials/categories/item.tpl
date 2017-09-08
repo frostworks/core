@@ -15,7 +15,7 @@
 			<!-- ENDIF ../descriptionParsed -->
 			<!-- BEGIN ../children -->
 			<span class="category-children">
-				<a href="{../link}">
+				<a href="{config.relative_path}/category/{../slug}">
 					<span class="fa-stack fa-lg">
 						<i style="color: {../bgColor};" class="fa fa-circle fa-stack-2x"></i>
 						<i style="color: {../color};" class="fa fa-stack-1x {../icon}"></i>
