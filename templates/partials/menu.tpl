@@ -1,15 +1,15 @@
 <div class="navbar-header">
-	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-label="[[global:navigation.toggle]]">
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 	</button>
 	<div>
-		<a href="<!-- IF brand:logo:url -->{brand:logo:url}<!-- ELSE -->{relative_path}/<!-- ENDIF brand:logo:url -->">
+		<a href="<!-- IF brand:logo:url -->{brand:logo:url}<!-- ELSE -->{relative_path}/<!-- ENDIF brand:logo:url -->" title="{title}">
 			<img alt="{brand:logo:alt}" class="{brand:logo:display} forum-logo" src="{brand:logo}" />
 		</a>
 		<!-- IF config.showSiteTitle -->
-		<a href="<!-- IF title:url -->{title:url}<!-- ELSE -->{relative_path}/<!-- ENDIF title:url -->">
+		<a href="<!-- IF title:url -->{title:url}<!-- ELSE -->{relative_path}/<!-- ENDIF title:url -->" title="{title}">
 			<h1 class="navbar-brand forum-title">{title}</h1>
 		</a>
 		<!-- ENDIF config.showSiteTitle -->
