@@ -3,7 +3,7 @@
 
 	<div class="col-xs-12 col-md-7 col-sm-9">
 		<a class="icon" href="{config.relative_path}/category/{../slug}" title="{../name}">
-			<span class="fa-stack fa-2x pull-left">
+			<span class="fa-stack fa-2x">
 				<i style="color: {../bgColor};" class="fa fa-circle fa-stack-2x"></i>
 				<i style="color: {../color};" class="fa fa-stack-1x {../icon}"></i>
 			</span>
