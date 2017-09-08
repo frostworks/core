@@ -30,4 +30,4 @@
 	<!-- ENDIF useCustomCSS -->
 </head>
 
-<!-- IMPORT partials/body.tpl -->
+<!-- IMPORT header/body.tpl -->
