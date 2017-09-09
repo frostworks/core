@@ -86,7 +86,7 @@
 						{topics.teaser.user.username}
 					</a>
 					<a class="permalink" href="{config.relative_path}/topic/{topics.slug}/{topics.teaser.index}">
-						<span class="timeago" title="{topics.teaser.timestampISO}"></span>
+						<small class="timeago" title="{topics.teaser.timestampISO}"></small>
 					</a>
 				</small>
 				<!-- ENDIF topics.teaser.pid -->
